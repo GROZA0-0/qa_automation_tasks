@@ -13,8 +13,9 @@ public class test1 {
 		 WebDriver driver =new EdgeDriver();
 		 driver.get("https://katalon-demo-cura.herokuapp.com/profile.php#login");
 		 /* linkText*/
-	    //driver.findElement(By.linkText("info@katalon.com")).click();
+	    driver.findElement(By.linkText("info@katalon.com")).click();
 		 driver.findElement(By.tagName("h2")).click();
+		 driver.findElement(By.tagName("input")).clear();
 
 	}
 
