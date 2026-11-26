@@ -11,7 +11,7 @@ public class test1 {
 	public static void main(String[] args) {
 		WebDriverManager.edgedriver().setup();
 		 WebDriver driver =new EdgeDriver();
-		 
+		 //
 		 driver.get("https://katalon-demo-cura.herokuapp.com/profile.php#login");
 	    driver.findElement(By.linkText("info@katalon.com")).click();
 		 driver.findElement(By.tagName("h2")).click();
